@@ -1,0 +1,86 @@
+
+
+*{
+    margin: 0; /* "reestablecer" */
+    padding: 0; /* borde interno */
+}
+
+body{
+    background-color: rgb(162, 204, 121);
+}
+
+.Titulo{
+    font-size: 50px;
+    background-image: url(/Fotos/intro.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: cursive;
+    color: aliceblue;
+    text-shadow: 9px 4px 5px rgba(3, 59, 8, 0.723);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 700px;
+
+    background-attachment: fixed;
+
+}
+
+.Historia{
+    text-align: center;
+    margin: 15px;
+    background-color: rgb(27, 110, 33);
+    border-radius: 10px;
+    border-style: dotted;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.Contenedor{
+    margin: 0 auto; /* distancia entre objetos */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Plantas{
+    text-align: center; /* centrar texto */
+    border-style: groove;
+    border-radius: 15px; /* esquinas redondeadas */
+    margin: 5px;
+    display: inline-block; 
+
+    background-color: rgb(105, 181, 105);
+    box-shadow: 10px 10px 40px; /* ancho por lado, ancho por lado, difuminación */
+
+    height: 300px;
+    width: 200px;
+
+
+}
+
+.Boton{
+    font-size: 30px;
+    text-decoration: none;
+    border-style: groove;
+    padding: 5px;
+    border-radius: 20px;
+    color: black;
+    background-color: rgba(60, 214, 122, 0.938);
+    cursor: grabbing;
+
+}
+
+.Boton:hover{
+    background-color: rgb(4, 91, 27);
+}
+
+img{ /* a los ya establecidos se ingresa directamente, sin punto */
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
